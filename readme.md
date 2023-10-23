@@ -64,7 +64,6 @@ While adding a post works, it was necessary to add additional information alongs
 This plugin is free, with no hidden costs after installation. If you'd like to support this project or simply say thank you, feel free to [leave a small donation](https://paypal.me/phpetecom) (if you can afford to).
 
 - **Contributors:** phpete
-- **Tags:** comments, spam
 - **Requires at least:** 6.0.0
 - **Tested up to:** 6.3.2
 - **Stable tag:** 6.3.2
