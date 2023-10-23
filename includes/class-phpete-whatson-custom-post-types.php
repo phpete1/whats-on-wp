@@ -51,12 +51,14 @@ class Phpete_Whatson_Custom_Post_Types {
                 'menu_icon'     => 'dashicons-calendar-alt',
                 'has_archive'   => true,
                 'rewrite'       => array(
-                    'slug'  => 'whatson'
+                    'slug'  => 'activities'
                 ),
                 'supports'      => array(
                     'title',
-                    'editor'
-                )
+                    'editor',
+                    'thumbnail'
+                ),
+                'show_in_rest'  => true
             )
         );
 
