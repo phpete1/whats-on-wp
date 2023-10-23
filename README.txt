@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: phpete
 Donate link: https://paypal.me/phpetecom/
-Tags: comments, spam
+Tags: events, whats on, activity
 Requires at least: 6.0.0
 Tested up to: 6.3.2
 Stable tag: 6.3.2
