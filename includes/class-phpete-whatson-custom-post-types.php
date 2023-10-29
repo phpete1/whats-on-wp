@@ -28,6 +28,8 @@ class Phpete_Whatson_Custom_Post_Types {
 
         add_action( 'init', array( $this, 'phpete_whatson' ) );
 
+        add_filter('pre_get_document_title', array($this, 'set_post_type_archive_title'));
+
     }
 
     /**
@@ -61,6 +63,25 @@ class Phpete_Whatson_Custom_Post_Types {
                 'show_in_rest'  => true
             )
         );
+
+    }
+
+    /**
+     * This function sets the archive for the post type
+     *
+     * @param $title
+     * @return string
+     * @since 1.0.3
+     */
+    public function set_post_type_archive_title($title) {
+
+        if (is_post_type_archive('phpete_whatson')) {
+
+            return 'What\'s On – '.get_bloginfo('name');
+
+        }
+
+        return $title;
 
     }
 
