@@ -16,7 +16,7 @@
  * Plugin Name:       phpete what's on
  * Plugin URI:        https://phpete.com
  * Description:       A simple what's on plugin for Wordpress
- * Version:           1.0.2
+ * Version:           1.0.3
  * Author:            phpete
  * Author URI:        https://phpete.com/
  * License:           GPL-2.0+
